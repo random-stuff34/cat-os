@@ -1,0 +1,16 @@
+body {
+    /* Path to your image file */
+    background-image: url('beluga.jpg'); 
+    
+    /* Presentation settings */
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    
+    /* Optional: Ensures the body spans the full viewport height */
+    min-height: 100vh; 
+    
+    /* Fallback color while image loads */
+    background-color: #f0f0f0; 
+}
